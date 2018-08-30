@@ -1,0 +1,201 @@
+body {
+	font-family: "Bodoni MT Black";    text-align: center;    color: ghostwhite;	background-color: black;
+}
+a {	color: ghostwhite;	}
+
+#video {
+	width: 100%;
+	height: 100%;
+}
+
+#video_otsikko {
+    display: flex;    position: absolute;    top: 0%;    left: 0%;    bottom: 90%;
+    width: 10%;    text-align: left;
+}
+
+#video_otsikko p1:hover{ color: red; }
+#video_otsikko p2:hover{ color: purple; }
+#video_otsikko p3:hover{ color: blue; }
+#video_otsikko p4:hover{ color: green; }
+#video_otsikko p5:hover{ color: yellow; }
+#video_otsikko p6:hover{ color: black; }
+
+#videoLink_blue,#videoLink_sex {
+	display: flex;    position: fixed;      text-align: left;
+	background-color: black;    border: dotted black 4px;
+	left: 5%;	height: 8%;    width: 10%;
+}
+#videoLink_blue:hover {	background-color: cyan;    color: blue; }
+#videoLink_sex:hover {    background-color: red;    color: lightpink; }
+
+#soundcloud {
+	display: flex;    position: fixed;    top: 0%;    right: 20%;
+    width: 10%;    text-align: left;    color: black;    background-color: white;
+    border: dotted black 4px;
+}
+#soundcloud:hover {    background-color: orange;    color: white; }
+
+#facebook {
+    display: flex;    position: fixed;    top: 5%;    right: 20%;
+    width: 10%;    text-align: left;    color: black;    background-color: white;
+    border: dotted black 4px;
+}
+#facebook:hover {    background-color: blue;    color: white; }
+
+
+#verticalDot1,#verticalDot2,#verticalDot3,#verticalDot4,#verticalDot5,
+#verticalDot6,#verticalDot7,#verticalDot8,#verticalDot9,#verticalDot10,
+#verticalDot11,#verticalDot12,#verticalDot13,#verticalDot14,#verticalDot15,
+#verticalDot16,#verticalDot17,#verticalDot18,#verticalDot19,#verticalDot20 {
+    bottom: 0%;    width: 5%;    display: flex;    position: fixed;    overflow: hidden;
+}
+
+#verticalDot1 {    top: 95%;    left: 0%;    background-color: #000000; }
+#verticalDot2 {    top: 90%;    left: 5%;    background-color: #0d0d0d; }
+#verticalDot3 {    top: 85%;    left: 10%;    background-color: #1a1a1a; }
+#verticalDot4 {    top: 80%;    left: 15%;    background-color: #262626; }
+#verticalDot5 {    top: 85%;    left: 20%;    background-color: #333333; }
+#verticalDot6 {    top: 85%;    left: 25%;    background-color: #404040; }
+#verticalDot7 {    top: 85%;    left: 30%;    background-color: #4d4d4d; }
+#verticalDot8 {    top: 85%;    left: 35%;     background-color: #595959; }
+#verticalDot9 {    top: 85%;    left: 40%;     background-color: #666666; }
+#verticalDot10 {    top: 85%;    left: 45%;     background-color: #737373; }
+#verticalDot11 {    top: 85%;    left: 50%;     background-color: #808080; }
+#verticalDot12 {    top: 85%;    left: 55%;     background-color: #8c8c8c; }
+#verticalDot13 {    top: 85%;    left: 60%;     background-color: #999999; }
+#verticalDot14 {    top: 85%;    left: 65%;     background-color: #a6a6a6; }
+#verticalDot15 {    top: 85%;    left: 70%;     background-color: #b3b3b3; }
+#verticalDot16 {    top: 85%;    left: 75%;     background-color: #bfbfbf; }
+#verticalDot17 {    top: 15%;    left: 80%;     background-color: #cccccc; }
+#verticalDot18 {    top: 10%;    left: 85%;     background-color: #d9d9d9; }
+#verticalDot19 {    top: 5%;    left: 90%;     background-color: #e6e6e6; }
+#verticalDot20 {    top: 0%;    left: 95%;     background-color: #f2f2f2; }
+
+#verticalDot1:hover,#verticalDot2:hover,#verticalDot3:hover,#verticalDot4:hover,#verticalDot5:hover,
+#verticalDot6:hover,#verticalDot7:hover,#verticalDot8:hover,#verticalDot9:hover,#verticalDot10:hover
+{ background-color: hotpink; }
+
+#verticalDot11:hover,#verticalDot12:hover,#verticalDot13:hover,#verticalDot14:hover,#verticalDot15:hover,
+#verticalDot16:hover,#verticalDot17:hover,#verticalDot18:hover,#verticalDot19:hover,#verticalDot20:hover
+{ background-color: midnightblue; }
+
+#horizontalDot1,#horizontalDot2,#horizontalDot3,#horizontalDot4,#horizontalDot5,
+#horizontalDot6,#horizontalDot7,#horizontalDot8,#horizontalDot9,#horizontalDot10
+{    display: flex;  position: fixed;    left: 0%;    overflow: hidden;    height: 10%; }
+
+#horizontalDot1 {    bottom: 90%;    width: 95%;    background-color: #0d0d0d; }
+#horizontalDot2 {    bottom: 80%;    width: 85%;    background-color: #262626; }
+#horizontalDot3 {    bottom: 70%;    width: 20%;    background-color: #404040; }
+#horizontalDot4 {    bottom: 60%;    width: 20%;    background-color: #595959; }
+#horizontalDot5 {    bottom: 50%;    width: 20%;    background-color: #737373; }
+#horizontalDot6 {    bottom: 40%;    width: 20%;    background-color: #8c8c8c; }
+#horizontalDot7 {    bottom: 30%;    width: 20%;    background-color: #a6a6a6; }
+#horizontalDot8 {    bottom: 20%;    width: 20%;    background-color: #bfbfbf; }
+#horizontalDot9 {    bottom: 10%;    width: 15%;    background-color: #d9d9d9; }
+#horizontalDot10 {    bottom: 0%;    width: 5%;    background-color: #f2f2f2; }
+
+#horizontalDot1:hover,#horizontalDot2:hover,#horizontalDot3:hover,#horizontalDot4:hover,#horizontalDot5:hover {    background-color: mediumvioletred; }
+#horizontalDot6:hover,#horizontalDot7:hover,#horizontalDot8:hover,#horizontalDot9:hover,#horizontalDot10:hover {    background-color: turquoise; }
+
+#screenSaverDot1,#screenSaverDot2,#screenSaverDot3,#screenSaverDot4,#screenSaverDot5,#screenSaverDot6,#screenSaverDot7,#screenSaverDot8,#screenSaverDot9,#screenSaverDot10
+{
+    display: flex;    position: fixed;    bottom: 25%;    height: 50%;    width: 5%;    background-color: white;
+}
+
+#screenSaverDot1 {    left: 25%; }
+#screenSaverDot1:hover {    background-color:crimson; }
+#screenSaverDot2 {    left: 30%; }
+#screenSaverDot2:hover {    background-color:cyan; }
+#screenSaverDot3 {    left: 35%; }
+#screenSaverDot3:hover {    background-color:blueviolet; }
+#screenSaverDot4 {    left: 40%; }
+#screenSaverDot4:hover {    background-color:red; }
+#screenSaverDot5 {    left: 45%; }
+#screenSaverDot5:hover {    background-color:darkgreen; }
+#screenSaverDot6 {    left: 50%; }
+#screenSaverDot6:hover {    background-color:deeppink; }
+#screenSaverDot7 {    left: 55%; }
+#screenSaverDot7:hover {    background-color:gray; }
+#screenSaverDot8 {    left: 60%; }
+#screenSaverDot8:hover {    background-color:powderblue; }
+#screenSaverDot9 {    left: 65%; }
+#screenSaverDot9:hover {    background-color:yellow; }
+#screenSaverDot10 {    left: 70%; }
+#screenSaverDot10:hover {    background-color:orangered; }
+
+#videoScreenContainer {
+    display: flex;    position: fixed;    top: 25%;    left: 25%;    bottom: 25%;    right: 25%;	background-color: DeepPink;
+}
+
+button {
+    background: black;    font-size: 8pt;    border: 0;    color: #EEE;
+    -webkit-border-radius: 3px;    -moz-border-radius: 3px;    -o-border-radius: 3px;    border-radius: 3px;
+}
+
+button:hover {    cursor: pointer; }
+
+#videoScreen {    width: 100%;    height: 100%;    background-color: black; }
+#videoScreenButtons {
+    position: absolute;    top: 0%;    width: 100%;    bottom: 0;    background-color: LavenderBlush;
+    opacity: 0;    -webkit-transition: opacity .3s;    -moz-transition: opacity .3s;    -o-transition: opacity .3s;
+    -ms-transition: opacity .3s;    transition: opacity .3s;
+}
+#videoScreen:hover #videoScreenButtons {    opacity: .9; }
+#videoScreen_seek {    width: 50%; }
+#videoScreen_volume {    width: 5%; }
+
+#videoScreenBorderDot1,#videoScreenBorderDot2,#videoScreenBorderDot3,#videoScreenBorderDot4,#videoScreenBorderDot5,#videoScreenBorderDot6,#videoScreenBorderDot7,
+#videoScreenBorderDot8,#videoScreenBorderDot9,#videoScreenBorderDot10,#videoScreenBorderDot11,#videoScreenBorderDot12,#videoScreenBorderDot13,#videoScreenBorderDot14,
+#videoScreenBorderDot15,#videoScreenBorderDot16,#videoScreenBorderDot17,#videoScreenBorderDot18,#videoScreenBorderDot19,#videoScreenBorderDot20,#videoScreenBorderDot21,
+#videoScreenBorderDot22,#videoScreenBorderDot23,#videoScreenBorderDot24,#videoScreenBorderDot25,#videoScreenBorderDot26,#videoScreenBorderDot27,#videoScreenBorderDot28,
+#videoScreenBorderDot29,#videoScreenBorderDot30,#videoScreenBorderDot31,#videoScreenBorderDot32,#videoScreenBorderDot33,#videoScreenBorderDot34 {
+    background-color: ghostwhite;    position: fixed;   overflow: hidden;
+    display: flex;    height: 10%;    width: 5%;    right: 35%;
+}
+
+#videoScreenBorderDot1 { left: 20%;    bottom: 75%; }
+#videoScreenBorderDot2 {left: 25%;    bottom: 75%;}
+#videoScreenBorderDot3 { left: 30%;    bottom: 75%; }
+#videoScreenBorderDot4 { left: 35%;    bottom: 75%; }
+#videoScreenBorderDot5 { left: 40%;    bottom: 75%; }
+#videoScreenBorderDot6 { left: 45%;    bottom: 75%; }
+#videoScreenBorderDot7 { left: 50%;    bottom: 75%; }
+#videoScreenBorderDot8 { left: 55%;    bottom: 75%; }
+#videoScreenBorderDot9 { left: 60%;    bottom: 75%; }
+#videoScreenBorderDot10 { left: 65%;    bottom: 75%; }
+#videoScreenBorderDot11 { left: 70%;    bottom: 75%; }
+#videoScreenBorderDot12 { left: 75%;    bottom: 75%; }
+#videoScreenBorderDot13 { left: 75%;    bottom: 65%; }
+#videoScreenBorderDot14 { left: 75%;    bottom: 55%; }
+#videoScreenBorderDot15 { left: 75%;    bottom: 45%; }
+#videoScreenBorderDot16 { left: 75%;    bottom: 35%; }
+#videoScreenBorderDot17 { left: 75%;    bottom: 25%; }
+#videoScreenBorderDot18 { left: 75%;    bottom: 15%; }
+#videoScreenBorderDot19 { left: 70%;    bottom: 15%; }
+#videoScreenBorderDot20 { left: 65%;    bottom: 15%; }
+#videoScreenBorderDot21 { left: 60%;    bottom: 15%; }
+#videoScreenBorderDot22 { left: 55%;    bottom: 15%; }
+#videoScreenBorderDot23 { left: 50%;    bottom: 15%; }
+#videoScreenBorderDot24 { left: 45%;    bottom: 15%; }
+#videoScreenBorderDot25 { left: 40%;    bottom: 15%; }
+#videoScreenBorderDot26 { left: 35%;    bottom: 15%; }
+#videoScreenBorderDot27 { left: 30%;    bottom: 15%; }
+#videoScreenBorderDot28 { left: 25%;    bottom: 15%; }
+#videoScreenBorderDot29 { left: 20%;    bottom: 15%; }
+#videoScreenBorderDot30 { left: 20%;    bottom: 25%; }
+#videoScreenBorderDot31 { left: 20%;    bottom: 35%; }
+#videoScreenBorderDot32 { left: 20%;    bottom: 45%; }
+#videoScreenBorderDot33 { left: 20%;    bottom: 55%; }
+#videoScreenBorderDot34 { left: 20%;    bottom: 65%; }
+
+#videoScreenBorderDot1:hover,#videoScreenBorderDot2:hover,#videoScreenBorderDot3:hover,#videoScreenBorderDot4:hover,
+#videoScreenBorderDot5:hover,#videoScreenBorderDot6:hover,#videoScreenBorderDot7:hover,#videoScreenBorderDot8:hover,
+#videoScreenBorderDot9:hover,#videoScreenBorderDot10:hover,#videoScreenBorderDot11:hover,#videoScreenBorderDot12:hover,
+#videoScreenBorderDot13:hover,#videoScreenBorderDot14:hover,#videoScreenBorderDot15:hover,#videoScreenBorderDot16:hover,
+#videoScreenBorderDot17:hover,#videoScreenBorderDot18:hover,#videoScreenBorderDot19:hover,#videoScreenBorderDot20:hover,
+#videoScreenBorderDot21:hover,#videoScreenBorderDot22:hover,#videoScreenBorderDot23:hover,#videoScreenBorderDot24:hover,
+#videoScreenBorderDot25:hover,#videoScreenBorderDot26:hover,#videoScreenBorderDot27:hover,#videoScreenBorderDot28:hover,
+#videoScreenBorderDot29:hover,#videoScreenBorderDot30:hover,#videoScreenBorderDot31:hover,#videoScreenBorderDot32:hover,
+#videoScreenBorderDot33:hover,#videoScreenBorderDot34:hover {
+    background-color:darkslategray;
+}
